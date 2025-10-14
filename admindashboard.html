@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="https://example.com/icon.png" type="image/png" />
     <title>Admin Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
 
     <!-- Bootstrap CSS --->
     <link
@@ -81,6 +86,7 @@
       color: white;
       display: flex;
       align-items: center;
+      gap: 12px;
     }
     .link a:hover {
       background: white;
@@ -145,7 +151,7 @@
       justify-content: space-evenly;
     }
     .btn2 {
-      margin-left: 450px;
+      margin-left: 800px;
     }
     .contact a {
       margin-left: 50px;
@@ -329,26 +335,27 @@
         <h1>Dashboard</h1>
       </div>
       <div class="link">
-        <a href="about">
+        <a href="about.html">
           <ion-icon name="add-circle-outline"></ion-icon><span>About</span></a
         >
-        <a href="gallery"
+        <a href="gallery.html"
           ><ion-icon name="image-outline"></ion-icon><span>Gallery </span></a
         >
-        <a href="contact">
-          <ion-icon name="call-outline"></ion-icon><span>Contact us</span></a
+        <a href="cnttbl.html">
+          <ion-icon name="call-outline"></ion-icon><span>My contacters</span></a
         >
 
-        <a href="sucess">
+        <a href="index.html">
           <ion-icon name="home-outline"></ion-icon><span>Home</span>
         </a>
 
-        <a href="donate">
+        <a href="donaterstbl.html">
           <ion-icon name="person-outline"></ion-icon><span>Donate</span>
         </a>
 
-        <a href="vntstbl">
-          <ion-icon name="at-outline"></ion-icon><span>volunterrs</span>
+        <a href="volontspge.html">
+          <i class="fas fa-handshake"></i>
+          <span> Volunteers</span>
         </a>
       </div>
     </div>
@@ -357,12 +364,9 @@
     <div class="header">
       <div class="nav">
         <!----- view link------>
-        <div class="user">
-          <a href="view" class="btn">view more </a
-          ><!----redirect the page into view page--->
-        </div>
+
         <div class="btn2">
-          <a href="loginpage"><button type="button">Logout</button></a>
+          <a href="loginpage.html"><button type="button">Logout</button></a>
         </div>
       </div>
     </div>
